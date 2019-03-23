@@ -8,8 +8,8 @@ execfile(activate_this, dict(__file__=activate_this))
 import os
 from sys import path
 path.append('/opt/telstar-data/venvs/amazonara')
-os.environ['http_proxy'] = 'http://proxy.kcc.com:80'
-os.environ['https_proxy'] = 'https://proxy.kcc.com:80'
+os.environ['http_proxy'] = 'http://proxy.###.com:80'
+os.environ['https_proxy'] = 'https://proxy.###.com:80'
 
 ###
 ### Version 1.3.1
@@ -904,4 +904,4 @@ if __name__ == '__main__':
     forecast_inventory_planning()
     ara_teardown()
     utils.writeLog('{}ara_logfile.txt'.format(ara_log_path), ara_error_messages)
-    utils.sendMail('ustwl099@kcc.com', ['jay.butzler@kcc.com','Jason.Olson@kcc.com', 'Mandeep.Rana@kcc.com'], 'Amazon ARA Script Ran','Downloaded {} files with {} erorrs.<br><br>New Files:<br><br>{}<br><br>Errors:<br><br>{}'.format(ara_file_count, ara_error_count, ara_file_delta, ara_error_messages.replace('\n','<br>')))
+  
