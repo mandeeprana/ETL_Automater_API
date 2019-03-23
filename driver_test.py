@@ -16,8 +16,8 @@ from selenium.common.exceptions import NoSuchElementException
 from telstar.kcbase import utils
 import Locators
 
-os.environ['http_proxy'] = 'http://proxy.kcc.com:80'
-os.environ['https_proxy'] = 'https://proxy.kcc.com:80'
+os.environ['http_proxy'] = 'http://proxy.###.com:80'
+os.environ['https_proxy'] = 'https://proxy.###.com:80'
 utils.writeLog('/opt/telstar-data/venvs/amazonara/logs/cronenv.log', utils.spcall('env')) 
 
 ###
@@ -137,4 +137,3 @@ except:
     pass
 
 utils.writeLog('{}driver_test_logfile.txt'.format(ara_log_path), ara_error_messages)
-utils.sendMail('ustwl099@kcc.com', ['jay.butzler@kcc.com'], 'Driver Test Script Ran','Files:<br><br>{}'.format(ara_file_delta))
