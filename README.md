@@ -1,5 +1,6 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+#ETL-automater-api
+
+This tool is developed in python that is used to automate the entire ETL process as an API without any human intervention needed. This solution is implemented for Amazon portal as an example and can be replicated same for all the other portals based on the business requirements. The goal of the automater is to reduce the time and cost invested on the existing resources by a huge number such that the new solution is reliable and efficient.
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
@@ -9,5 +10,6 @@ TODO: Guide users through getting your code up and running on their own system. 
 4.	API references
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Describe and show how to build your code and run the tests. 
 
+Copyright: Mandeep Rana
