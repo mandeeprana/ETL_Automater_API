@@ -1,0 +1,110 @@
+# Activate the virtualenv
+# Version 1.2.0
+#
+# Sales Diagnostic POM
+#
+Program: Amazon Retail
+Distributor View: Manufacturing
+Sales View: Ordered Revenue
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Amazon Retail
+Distributor View: Manufacturing
+Sales View: Shipped Revenue
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Amazon Retail
+Distributor View: Manufacturing
+Sales View: Shipped COGS
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Amazon Fresh
+Distributor View: Manufaturing
+Sales View: Shipped COGS
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Amazon Prime Now
+Sales View: Shipped COGS
+Region: All, Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Amazon Business
+Sales View: Shipped Revenue
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Amazon Business
+Sales View: Shipped COGS
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+#
+# Inventory Health POM
+#
+Program: Inventory Health
+Distributor View: Manufacturing
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Inventory Health
+Distributor View: Manufacturing
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Weekly
+
+#
+# Net PPM POM
+#
+Default options
+
+#
+# Traffic Diagnostic POM
+#
+Program: Amazon Retail
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Amazon Retail
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Weekly
+
+Program: Amazon Fresh
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Program: Amazon Fresh
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Weekly
+
+Program: Amazon Business
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+#
+# Forecast & Inventory Planning POM
+#
+Distributor View: Manufacturing
+Sales View: Ordered Units
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Distributor View: Manufacturing
+Sales View: Ordered Units
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Weekly
+
+Distributor View: Manufacturing
+Sales View: Shipped Units
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Daily
+
+Distributor View: Manufacturing
+Sales View: Shipped Units
+Category: All, Subcategory: All, Brand: All
+Reporting Range: Weekly
+# 
+# TEARDOWN ENVIRONMENT
+# 

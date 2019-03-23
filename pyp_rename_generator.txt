@@ -1,0 +1,3 @@
+# This is how Jay used Pied Piper (pyp) to create a rename Bash script.
+
+ls -d1 *-18*.csv | pyp "p.replace('-18 ','-2018 ') | p.replace('-18_','-2018_') | p.replace(' ','\ ') | 'mv',o,p" > rename.sh
